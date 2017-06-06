@@ -32,7 +32,7 @@ for i in labels1:
         common_labels.append(i)
 print('\n.oO                            Combine Relion Star Files                                       Oo.')
 print('.oO   2017 Matt Iadanza - University of Leeds Astbury Centre for Structural Molecular Biology  Oo.')
-print('\nThe two starfiles have the following colum labels in common:')
+print('\nThe two starfiles have the following column labels in common:')
 n = 1
 for i in common_labels:
     print('{0})  {1}'.format(n,i))
