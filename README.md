@@ -1,5 +1,5 @@
 # rln_combine_stars
-combine two Relion star files keeping only common columns
+combine two Relion star files keeping only common columns selected by the user
 
 run it with:
 
