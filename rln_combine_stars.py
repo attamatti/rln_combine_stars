@@ -30,7 +30,7 @@ common_labels = []
 for i in labels1:
     if i in labels2:
         common_labels.append(i)
-print('.oO                            Combine Relion Star Files                                       Oo.')
+print('\n.oO                            Combine Relion Star Files                                       Oo.')
 print('.oO   2017 Matt Iadanza - University of Leeds Astbury Centre for Structural Molecular Biology  Oo.')
 print('\nThe two starfiles have the following colum labels in common:')
 n = 1
