@@ -46,8 +46,10 @@ for i in common_labels:
     print('{0})  {1}'.format(n,i))
     n+=1
 print('\nWhich columns do you want in the output star file?')
-columns = raw_input("comma separated or type 'a' for all common columns: ")
-
+try:
+    columns = raw_input("comma separated or type 'a' for all common columns: ")
+except:
+    columns = input("comma separated or type 'a' for all common columns: ")
 final_cols = []
 if columns =='a':
     final_cols = common_labels
